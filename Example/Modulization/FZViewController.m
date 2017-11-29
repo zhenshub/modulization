@@ -7,6 +7,7 @@
 //
 
 #import "FZViewController.h"
+#import <Modulization/FZObject.h>
 
 @interface FZViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+//    FZObject *obj = [FZObject new];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
