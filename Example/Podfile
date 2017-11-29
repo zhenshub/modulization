@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Modulization_Example' do
+  pod 'Modulization', :path => '../'
+
+  target 'Modulization_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
